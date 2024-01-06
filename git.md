@@ -4,6 +4,11 @@
     git reset HEAD~
   ```
 
+- Change Remote orign
+  ```
+    git remote set-url origin https://git-repo/new-repository.git
+  ```
+
 - Lấy git log online
 
   ```
