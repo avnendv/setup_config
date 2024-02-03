@@ -5,6 +5,7 @@
   ```
 
 - Change Remote orign
+
   ```
     git remote set-url origin https://git-repo/new-repository.git
   ```
@@ -80,3 +81,29 @@
   git cherry-pick commitId^..commitIdn // cherry-pick range
   git cherry-pick -m 1 --no-commit commitId^..commitIdn // cho phép các commit merge, không commit
 ```
+
+- Git tag:
+
+  - Tao tag
+    ```
+      git tag v1.0.0
+      // or
+      git tag v1.0.0
+    ```
+  - Lay danh sach tag
+    ```
+      git tag -l -n3
+    ```
+  - Chi tiet tag
+    ```
+      git show v1.0
+    ```
+  - Xoa tag
+    ```
+      git tag -d <tag_identifier>
+    ```
+  - Push tag
+    ```
+      git push origin v1.0
+      git push --tags // push all tag
+    ```
