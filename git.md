@@ -4,6 +4,12 @@
     git reset HEAD~
   ```
 
+- Ghi de commit
+
+  ```
+    git commit --amend
+  ```
+
 - Change Remote orign
 
   ```
